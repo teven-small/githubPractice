@@ -4,7 +4,38 @@
 提交到缓存区：git commit -m “提交说明”
 查看状态：git status
 查看文件内容：cat 文件名
-后退：git reflog
+查看历史记录：git log
+查看HEAD的变更记录：git reflog
 后退到指定：git reset --hard "指针"
 后退一步：git reset --hard HEAD^
 后退二步：git reset --hard HEAD^^
+
+删除文件：rm 文件名
+文件比较：git diff 历史指针索引 文件名  //提交缓存区的文件比较
+
+创建分支：git branch 分支名
+查看分支：git branch -v
+切换分支：git checkout 分支名
+分支合并（在master下合并）：git merge 分支名
+
+分支冲突错误：
+   CONFLICT (add/add): Merge conflict in branch_test/test.txt
+   Auto-merging branch_test/test.txt
+   Automatic merge failed; fix conflicts and then commit the result.
+
+远程仓库
+
+查看当前远程库：git remote -v
+创建别名：git remote add 别名 远程库地址
+
+
+推送到远程库：git push 别名 master
+
+
+
+
+
+
+
+
+
