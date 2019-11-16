@@ -1,3 +1,4 @@
 新建test.txt文件
-
-
+在test分支中修改文件test文件内容
+aaaaaaaaaaaaaa
+手动合并
