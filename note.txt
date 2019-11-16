@@ -1,0 +1,10 @@
+	git命令
+
+提交到本地库：git add 文件名
+提交到缓存区：git commit -m “提交说明”
+查看状态：git status
+查看文件内容：cat 文件名
+后退：git reflog
+后退到指定：git reset --hard "指针"
+后退一步：git reset --hard HEAD^
+后退二步：git reset --hard HEAD^^
